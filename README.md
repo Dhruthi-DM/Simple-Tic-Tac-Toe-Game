@@ -1,7 +1,11 @@
 # Simple-Tic-Tac-Toe-Game
+
 Simple Tic Tac Toe Game using HTML,CSS,JavaScript
+
 🎮 Tic-Tac-Toe Game ✨
+
 This is a classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript!
+
 Challenge your friends or play solo to see who wins! 🏆
 
 🛠️ Features:
