@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #FFC2D1;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: #fff; /* White text */
+    height: 15vmin;
+    margin-top: 3.5rem;
+
+    /* Adding a dark pink outline */
+    -webkit-text-stroke: 1px #C2185B; /* Dark pink outline for modern browsers */
+    text-shadow:
+        -1px -1px 0 #C2185B, /* Top-left */
+         1px -1px 0 #C2185B, /* Top-right */
+        -1px  1px 0 #C2185B, /* Bottom-left */
+         1px  1px 0 #C2185B; /* Bottom-right */
+
+    font-weight: bold; /* Make it bold for more emphasis */
+    text-align: center; /* Center the heading */
+}
+
+
+.container {
+    height: 70vh;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex; /* aligns boxes in one line  */
+    flex-wrap: wrap;/* incase no space go to next line  */
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    margin: auto;
+}
+
+.box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;/*curved edge*/
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0.1);
+    font-size: 8vmin;
+    color:#FB6F92;
+    background-color: #FFE5EC;
+}
+
+#reset-btn{
+    padding:1rem;
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fb6f92;
+    color:#fff;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 2rem;
+}
+
+#new-btn{
+    padding:1.25rem;
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fb6f92;
+    color:#fff;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 2rem;
+}
+
+#msg{
+    color:#fff;
+    font-size: 10vmin;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    /* Adding a dark pink outline */
+    -webkit-text-stroke: 1px #C2185B; /* Dark pink outline for modern browsers */
+    text-shadow:
+        -1px -1px 0 #C2185B, /* Top-left */
+         1px -1px 0 #C2185B, /* Top-right */
+        -1px  1px 0 #C2185B, /* Bottom-left */
+         1px  1px 0 #C2185B; /* Bottom-right */
+
+    font-weight: bold; /* Make it bold for more emphasis */
+    text-align: center; /* Center the heading */
+}
+
+
+.msg-container{
+    height: 100vmin ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
