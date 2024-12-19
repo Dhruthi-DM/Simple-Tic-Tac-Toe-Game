@@ -14,7 +14,7 @@ Click on a box to place your mark (X or O).
 Take turns until someone wins or the game draws.
 Click Reset or New Game to play again!
 🌐 Live Demo:
-Check out the live version here: 
+Check out the live version here: http://dhruthi-dm.github.tictactoe.io/
 
 📸 Screenshot Preview
 (Add a screenshot of your game here!)
